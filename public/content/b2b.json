@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "badge": "Per Ristoranti e Negozi",
+    "title": "Forniture per Attività",
+    "subtitle": "Olio autentico per la tua cucina",
+    "description": "Se sei un ristorante, un negozio di alimentari o un'attività che cerca olio di qualità, contattaci per un preventivo personalizzato."
+  },
+  "benefits": [
+    {
+      "title": "Qualità Garantita",
+      "description": "Lo stesso olio che vendiamo ai privati. Monocultivar Nocellara IGP.",
+      "icon": "🫒"
+    },
+    {
+      "title": "Prezzi Dedicati",
+      "description": "Listino riservato per ordini ricorrenti e grandi quantità.",
+      "icon": "💰"
+    },
+    {
+      "title": "Spedizioni Dirette",
+      "description": "Dal nostro uliveto al tuo locale, senza intermediari.",
+      "icon": "📦"
+    },
+    {
+      "title": "Fornitura Costante",
+      "description": "Olio sempre disponibile per le tue esigenze.",
+      "icon": "🔄"
+    }
+  ],
+  "advantages": [
+    "Olio IGP Valle del Belice certificato",
+    "Monocultivar Nocellara del Belice",
+    "Molitura a freddo garantita",
+    "Prezzi dedicati per attività",
+    "Spedizioni in tutta Italia",
+    "Contatto diretto con il produttore",
+    "Fatturazione regolare"
+  ],
+  "cta": {
+    "title": "Interessato?",
+    "description": "Contattaci su WhatsApp per un preventivo personalizzato. Saremo felici di diventare il tuo fornitore di fiducia.",
+    "buttonWhatsapp": "Richiedi Preventivo",
+    "buttonPhone": "Oppure Chiamaci"
+  },
+  "testimonials": []
+}

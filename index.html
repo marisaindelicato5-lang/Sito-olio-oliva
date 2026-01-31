@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Preconnect per performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Font ottimizzati -->
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" 
+      rel="stylesheet" 
+    />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Piccola Azienda Agricola | Olio Extravergine IGP Sicilia - Valle del Belice</title>
+    <meta name="title" content="Piccola Azienda Agricola | Olio Extravergine IGP Sicilia - Valle del Belice" />
+    <meta name="description" content="Olio Extravergine di Oliva IGP dalla Valle del Belice. Monocultivar Nocellara, raccolto a mano, molitura a freddo. Spedizioni in tutta Italia da Castelvetrano." />
+    <meta name="keywords" content="olio extravergine sicilia, olio nocellara belice, olio igp trapani, olio castelvetrano, olio siciliano online, olio artigianale" />
+    <meta name="author" content="Piccola Azienda Agricola" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.piccolaaziendaagricola.it/" />
+    <meta property="og:title" content="Piccola Azienda Agricola | Olio Extravergine IGP Sicilia" />
+    <meta property="og:description" content="Olio Extravergine di Oliva IGP dalla Valle del Belice. Monocultivar Nocellara, raccolto a mano, molitura a freddo. Spedizioni in tutta Italia." />
+    <meta property="og:image" content="https://www.piccolaaziendaagricola.it/og-image.jpg" />
+    <meta property="og:locale" content="it_IT" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.piccolaaziendaagricola.it/" />
+    <meta property="twitter:title" content="Piccola Azienda Agricola | Olio Extravergine IGP Sicilia" />
+    <meta property="twitter:description" content="Olio Extravergine di Oliva IGP dalla Valle del Belice. Monocultivar Nocellara del Belice." />
+    <meta property="twitter:image" content="https://www.piccolaaziendaagricola.it/og-image.jpg" />
+
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="IT-TP" />
+    <meta name="geo.placename" content="Castelvetrano" />
+    <meta name="geo.position" content="37.6789;12.7917" />
+    <meta name="ICBM" content="37.6789, 12.7917" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#5C6B4A" />
+    <meta name="msapplication-TileColor" content="#5C6B4A" />
+
+    <!-- Structured Data - LocalBusiness -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://www.piccolaaziendaagricola.it",
+        "name": "Piccola Azienda Agricola",
+        "image": "https://www.piccolaaziendaagricola.it/images/logo.jpg",
+        "url": "https://www.piccolaaziendaagricola.it",
+        "telephone": "+393913550958",
+        "priceRange": "€€",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Castelvetrano",
+          "addressRegion": "TP",
+          "addressCountry": "IT"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 37.6789,
+          "longitude": 12.7917
+        },
+        "description": "Olio Extravergine di Oliva IGP dalla Valle del Belice. Monocultivar Nocellara, raccolto a mano, molitura a freddo. Due generazioni di tradizione.",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Italia"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Olio Extravergine di Oliva",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Olio Extravergine Nocellara del Belice IGP",
+                "description": "Monocultivar, molitura a freddo"
+              }
+            }
+          ]
+        }
+      }
+    </script>
+
+    <!-- Critical CSS will be inlined here by build -->
+    <style>
+      /* Critical CSS - Above the fold */
+      :root {
+        --granite-950: #1A1A1A;
+        --granite-600: #5C6B4A;
+        --farina-100: #FBF8F0;
+      }
+      body {
+        margin: 0;
+        background-color: var(--farina-100);
+        font-family: 'Source Sans 3', system-ui, sans-serif;
+      }
+      .loading-screen {
+        position: fixed;
+        inset: 0;
+        background: var(--farina-100);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        transition: opacity 0.3s ease;
+      }
+      .loading-screen.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+      <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="30" cy="30" r="25" stroke="#5C6B4A" stroke-width="2" stroke-dasharray="157" stroke-dashoffset="0">
+          <animate attributeName="stroke-dashoffset" values="0;157;0" dur="2s" repeatCount="indefinite" />
+        </circle>
+      </svg>
+    </div>
+
+    <!-- App Root -->
+    <div id="root"></div>
+
+    <!-- Module Script -->
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Hide loading screen when app loads -->
+    <script>
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          document.getElementById('loading-screen').classList.add('hidden');
+        }, 300);
+      });
+    </script>
+
+    <!-- NoScript fallback -->
+    <noscript>
+      <style>.loading-screen { display: none; }</style>
+      <div style="padding: 2rem; text-align: center; font-family: Georgia, serif;">
+        <h1>Piccola Azienda Agricola</h1>
+        <p>Olio Extravergine di Sicilia</p>
+        <p>Per visualizzare questo sito è necessario abilitare JavaScript.</p>
+        <p><a href="https://wa.me/393913550958">Contattaci su WhatsApp</a></p>
+      </div>
+    </noscript>
+  </body>
+</html>

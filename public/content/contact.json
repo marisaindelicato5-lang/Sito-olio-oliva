@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "title": "Contattaci",
+    "description": "Ordinare è semplice: scrivici su WhatsApp. Spediamo in tutta Italia con Poste Italiane."
+  },
+  "info": {
+    "address": {
+      "street": "",
+      "cap": "",
+      "city": "Castelvetrano",
+      "zone": "Valle del Belice",
+      "note": "Provincia di Trapani, Sicilia"
+    },
+    "phone": "+39 391 355 0958",
+    "email": "",
+    "whatsapp": "https://wa.me/393913550958",
+    "hours": {
+      "store": "Ordini via WhatsApp",
+      "deliveries": "Spedizioni in tutta Italia con Poste Italiane"
+    }
+  },
+  "links": {
+    "googleMaps": "",
+    "googleBusiness": "",
+    "googleReviews": ""
+  },
+  "form": {
+    "title": "Inviaci un Messaggio",
+    "submitButton": "Invia Messaggio",
+    "successMessage": "Messaggio inviato! Ti risponderemo il prima possibile."
+  },
+  "mapEmbed": {
+    "lat": 37.6789,
+    "lng": 12.7917
+  }
+}
