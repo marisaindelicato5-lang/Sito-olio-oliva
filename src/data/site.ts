@@ -5,15 +5,15 @@ import type { NavItem, BusinessType } from '../types';
 // ============================================
 
 export const siteConfig = {
-  name: 'Piccola Azienda Agricola',
+  name: 'Oro verde di Sicilia',
   tagline: 'Olio Extravergine di Sicilia',
   description: 'Olio Extravergine di Oliva IGP dalla Valle del Belice. Monocultivar Nocellara, raccolto a mano, molitura a freddo. Spedizioni in tutta Italia.',
   foundingYear: null,
   
   // Contact
-  phone: '+39 391 355 0958',
-  phoneClean: '393913550958',
-  email: '',
+  phone: '391 355 0958',
+  phoneClean: '3913550958',
+  email: 'olioextraverginedioliva@gmail.com',
   whatsapp: 'https://wa.me/393913550958',
   whatsappMessage: 'Ciao, vorrei ordinare il vostro olio.',
   
@@ -48,12 +48,12 @@ export const siteConfig = {
   },
   
   // URLs
-  url: 'https://www.piccolaaziendaagricola.it',
+  url: 'https://www.oroverdediSicilia.it',
   
   // SEO
   seo: {
-    titleTemplate: '%s | Piccola Azienda Agricola',
-    defaultTitle: 'Piccola Azienda Agricola | Olio Extravergine IGP Sicilia',
+    titleTemplate: '%s | Oro verde di Sicilia',
+    defaultTitle: 'Oro verde di Sicilia | Olio Extravergine IGP Sicilia',
     defaultDescription: 'Olio Extravergine di Oliva IGP dalla Valle del Belice. Monocultivar Nocellara, raccolto a mano, molitura a freddo. Spedizioni in tutta Italia.',
     defaultImage: '/og-image.jpg',
   },
@@ -103,9 +103,9 @@ export const businessTypes: { value: BusinessType; label: string }[] = [
 // ============================================
 
 export const heroContent = {
-  title: 'Piccola Azienda Agricola',
+  title: 'Oro verde di Sicilia',
   subtitle: 'Olio Extravergine di Sicilia',
-  description: 'Da Castelvetrano, nel cuore della Valle del Belice, coltiviamo e spremiamo Nocellara del Belice da due generazioni. Raccolta a mano, molitura a freddo, dal nostro uliveto alla tua tavola.',
+  description: 'Da Castelvetrano, nel cuore della Valle del Belice, coltiviamo Nocellara del Belice da due generazioni. Raccolta a mano, molitura a freddo, dal nostro uliveto alla tua tavola.',
   cta: {
     primary: { label: 'Scopri l\'Olio', href: '/prodotti' },
     secondary: { label: 'Ordina su WhatsApp', href: 'https://wa.me/393913550958' },
@@ -118,7 +118,7 @@ export const aboutContent = {
   intro: 'Da Castelvetrano, dove la Nocellara è di casa.',
   story: [
     'Siamo una piccola azienda agricola familiare nel cuore della Valle del Belice, a Castelvetrano, provincia di Trapani. Qui la Nocellara del Belice non è solo un\'oliva: è identità, tradizione, orgoglio.',
-    'Da due generazioni coltiviamo i nostri ulivi con rispetto per la terra e per il tempo. Raccogliamo a mano, spremiamo a freddo, imbottigliamo solo quello che produciamo noi.',
+    'Da due generazioni coltiviamo i nostri ulivi con rispetto per la terra e per il tempo. Raccogliamo a mano, imbottigliamo solo quello che produciamo noi.',
     'Non siamo un\'industria. Siamo una famiglia che fa olio come si faceva una volta, e lo spedisce direttamente a casa tua. Senza intermediari, senza compromessi.',
   ],
   values: [
