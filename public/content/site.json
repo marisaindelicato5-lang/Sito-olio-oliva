@@ -1,14 +1,14 @@
 {
   "meta": {
-    "siteTitle": "Piccola Azienda Agricola",
+    "siteTitle": "Oro verde di Sicilia",
     "siteDescription": "Olio Extravergine di Oliva IGP dalla Valle del Belice. Monocultivar Nocellara, raccolto a mano, molitura a freddo. Spedizioni in tutta Italia.",
     "ogImage": "/images/og-image.jpg"
   },
   "hero": {
     "badge": "IGP Valle del Belice • Due Generazioni",
-    "title": "Piccola Azienda Agricola",
+    "title": "Oro verde di Sicilia",
     "subtitle": "Olio Extravergine di Sicilia",
-    "description": "Da Castelvetrano, nel cuore della Valle del Belice, coltiviamo e spremiamo Nocellara del Belice da due generazioni. Raccolta a mano, molitura a freddo, dal nostro uliveto alla tua tavola.",
+    "description": "Da Castelvetrano, nel cuore della Valle del Belice, coltiviamo Nocellara del Belice da due generazioni. Raccolta a mano, molitura a freddo, dal nostro uliveto alla tua tavola.",
     "ctaPrimary": "Scopri l'Olio",
     "ctaSecondary": "Ordina su WhatsApp"
   },
@@ -23,7 +23,7 @@
     },
     {
       "title": "Molitura a Freddo",
-      "description": "Spremitura a freddo entro poche ore dalla raccolta. Zero compromessi."
+      "description": "Molitura a freddo entro poche ore dalla raccolta. Zero compromessi."
     },
     {
       "title": "Due Generazioni",
@@ -36,7 +36,7 @@
     "intro": "Da Castelvetrano, dove la Nocellara è di casa.",
     "story": [
       "Siamo una piccola azienda agricola familiare nel cuore della Valle del Belice, a Castelvetrano, provincia di Trapani. Qui la Nocellara del Belice non è solo un'oliva: è identità, tradizione, orgoglio.",
-      "Da due generazioni coltiviamo i nostri ulivi con rispetto per la terra e per il tempo. Raccogliamo a mano, spremiamo a freddo, imbottigliamo solo quello che produciamo noi.",
+      "Da due generazioni coltiviamo i nostri ulivi con rispetto per la terra e per il tempo. Raccogliamo a mano e imbottigliamo solo quello che produciamo noi.",
       "Non siamo un'industria. Siamo una famiglia che fa olio come si faceva una volta, e lo spedisce direttamente a casa tua. Senza intermediari, senza compromessi."
     ],
     "values": [
