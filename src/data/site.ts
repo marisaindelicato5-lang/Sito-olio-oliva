@@ -11,7 +11,7 @@ export const siteConfig = {
   foundingYear: null,
   
   // Contact
-  phone: '391 355 0958',
+  phone: '+39 391 355 0958',
   phoneClean: '3913550958',
   email: 'olioextraverginedioliva@gmail.com',
   whatsapp: 'https://wa.me/393913550958',
@@ -147,7 +147,7 @@ export const b2bContent = {
   benefits: [
     {
       title: 'Qualità Garantita',
-      description: 'Lo stesso olio che vendiamo ai privati. Monocultivar Nocellara IGP.',
+      3description: 'Lo stesso olio che vendiamo ai privati. Monocultivar Nocellara IGP.',
       icon: '🫒',
     },
     {
