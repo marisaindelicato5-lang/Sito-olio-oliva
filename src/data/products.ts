@@ -109,7 +109,7 @@ export const defaultProducts: Product[] = [
     image: '/images/products/olio-10l.jpg',
     images: [],
     available: true,
-    featured: false,
+    featured: true,
     tags: ['nocellara', 'igp', '10 litri', 'risparmio'],
     createdAt: '2025-01-25',
     updatedAt: '2025-01-25',
