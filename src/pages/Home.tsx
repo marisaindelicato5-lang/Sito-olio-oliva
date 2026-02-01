@@ -248,10 +248,12 @@ export function HomePage() {
                 className="group bg-white rounded-2xl overflow-hidden shadow-warm hover:shadow-warm-lg transition-all duration-300"
               >
                 <div className="aspect-square bg-farina-200 overflow-hidden">
-                  <div className="w-full h-full bg-gradient-to-br from-granite-100 to-granite-200 flex items-center justify-center">
-                    <Droplets className="w-16 h-16 text-granite-300" />
-                  </div>
-                </div>
+  <img 
+    src={product.image} 
+    alt={product.name}
+    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+  />
+</div>
                 <div className="p-5">
                   <span className="text-xs text-granite-500 uppercase tracking-wider">
                     {productsData?.categories.find((c: { id: string }) => c.id === product.category)?.name}
