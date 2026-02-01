@@ -147,7 +147,7 @@ export const b2bContent = {
   benefits: [
     {
       title: 'Qualità Garantita',
-      3description: 'Lo stesso olio che vendiamo ai privati. Monocultivar Nocellara IGP.',
+      description: 'Lo stesso olio che vendiamo ai privati. Monocultivar Nocellara IGP.',
       icon: '🫒',
     },
     {
