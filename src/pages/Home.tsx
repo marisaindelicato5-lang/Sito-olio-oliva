@@ -247,12 +247,19 @@ export function HomePage() {
                 transition={{ delay: index * 0.1 }}
                 className="group bg-white rounded-2xl overflow-hidden shadow-warm hover:shadow-warm-lg transition-all duration-300"
               >
-                <div className="aspect-square bg-farina-200 overflow-hidden">
+                <div className="aspect-square bg-farina-200 overflow-hidden relative">
   <img 
     src={product.image} 
     alt={product.name}
     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
   />
+  {product.id === 'olio-10l' && (
+    <div className="absolute inset-0 flex flex-col items-center justify-end pb-4 pointer-events-none">
+      <span className="bg-red-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-md animate-bounce">
+        🚚 Spedizione GRATUITA
+      </span>
+    </div>
+  )}
 </div>
                 <div className="p-5">
                   <span className="text-xs text-granite-500 uppercase tracking-wider">
