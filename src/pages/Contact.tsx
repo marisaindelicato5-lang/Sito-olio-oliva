@@ -1,4 +1,4 @@
-import { useState } from 'react';
+poiimport { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Phone, Mail, Clock, MessageCircle, Send, CheckCircle } from 'lucide-react';
 import { businessTypes } from '../data/site';
@@ -339,20 +339,57 @@ export function ContactPage() {
           </div>
         </div>
       </section>
-
-      {/* Map */}
-      <section className="h-96 bg-granite-200">
-        <iframe
-          src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.5!2d${contactContent.mapEmbed.lng}!3d${contactContent.mapEmbed.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDI5JzI2LjIiTiA5wrAxMScxNC42IkU!5e0!3m2!1sit!2sit!4v1234567890`}
-          width="100%"
-          height="100%"
+{/* Sezione Mappa */}
+<section className="py-16 bg-farina-100">
+  <div className="container-custom">
+    <h2 className="text-3xl md:text-4xl font-display font-semibold text-granite-950 mb-4 text-center">
+      Dove Siamo
+    </h2>
+    <p className="text-center text-granite-600 mb-8 max-w-2xl mx-auto">
+      I nostri uliveti si trovano nella Valle del Belice, a Castelvetrano (TP), nel cuore della Sicilia occidentale.
+    </p>
+    
+    <div className="max-w-4xl mx-auto">
+      {/* Mappa OpenStreetMap */}
+      <div className="rounded-xl overflow-hidden shadow-lg">
+        <iframe 
+          width="100%" 
+          height="450" 
+          frameBorder="0" 
+          scrolling="no" 
+          marginHeight="0" 
+          marginWidth="0"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=12.7417%2C37.6289%2C12.8417%2C37.7289&layer=mapnik&marker=37.6789%2C12.7917"
           style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title="Mappa Piccola Azienda Agricola"
+          title="Mappa Oro Verde di Sicilia - Castelvetrano"
         />
-      </section>
-    </>
-  );
-}
+      </div>
+      
+      {/* Link per aprire mappa più grande */}
+      <div className="text-center mt-6">
+        <a 
+          href="https://www.openstreetmap.org/?mlat=37.6789&mlon=12.7917#map=13/37.6789/12.7917" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-granite-600 hover:text-granite-700 transition-colors"
+        >
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          Visualizza mappa più grande
+        </a>
+      </div>
+      
+      {/* Informazioni indirizzo */}
+      <div className="mt-8 text-center">
+        <p className="text-lg font-medium text-granite-950">
+          Castelvetrano (TP), Sicilia
+        </p>
+        <p className="text-granite-600 mt-2">
+          Valle del Belice - Provincia di Trapani
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
