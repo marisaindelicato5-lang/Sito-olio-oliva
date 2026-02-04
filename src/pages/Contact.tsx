@@ -340,19 +340,52 @@ export function ContactPage() {
         </div>
       </section>
 {/* Sezione Mappa */}
-<section className="py-16 bg-farina-100">
-  <div className="container-custom">
-    <h2 className="text-3xl md:text-4xl font-display font-semibold text-granite-950 mb-4 text-center">
-      Dove Siamo
-    </h2>
-    <p className="text-center text-granite-600 mb-8 max-w-2xl mx-auto">
-      I nostri uliveti si trovano nella Valle del Belice, a Castelvetrano (TP), nel cuore della Sicilia occidentale.
-    </p>
-    
-    <div className="max-w-4xl mx-auto">
-      {/* Mappa OpenStreetMap */}
-      <div className="rounded-xl overflow-hidden shadow-lg">
-        <iframe 
+{/* Map */}
+      <section className="py-16 bg-farina-100">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-display font-semibold text-granite-950 mb-4 text-center">
+            Dove Siamo
+          </h2>
+          <p className="text-center text-granite-600 mb-8 max-w-2xl mx-auto">
+            I nostri uliveti si trovano nella Valle del Belice, a Castelvetrano (TP), nel cuore della Sicilia occidentale.
+          </p>
+          
+          <div className="max-w-4xl mx-auto">
+            <div className="rounded-xl overflow-hidden shadow-lg">
+              <iframe 
+                src="https://www.openstreetmap.org/export/embed.html?bbox=12.7417%2C37.6289%2C12.8417%2C37.7289&layer=mapnik&marker=37.6789%2C12.7917"
+                width="100%" 
+                height="450" 
+                style={{ border: 0 }}
+                allowFullScreen 
+                loading="lazy" 
+                title="Mappa Oro Verde di Sicilia - Castelvetrano"
+              />
+            </div>
+            
+            <div className="text-center mt-6">
+              <a 
+                href="https://www.openstreetmap.org/?mlat=37.6789&mlon=12.7917#map=13/37.6789/12.7917" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-granite-600 hover:text-granite-700 transition-colors"
+              >
+                <MapPin className="w-5 h-5" />
+                Visualizza mappa più grande
+              </a>
+            </div>
+            
+            <div className="mt-8 text-center">
+              <p className="text-lg font-medium text-granite-950">
+                Castelvetrano (TP), Sicilia
+              </p>
+              <p className="text-granite-600 mt-2">
+                Valle del Belice - Provincia di Trapani
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
           width="100%" 
           height="450" 
           frameBorder="0" 
