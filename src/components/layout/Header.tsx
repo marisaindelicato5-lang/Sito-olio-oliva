@@ -48,7 +48,7 @@ export function Header() {
           <nav className="flex items-center justify-between" aria-label="Main navigation">
             <Link to="/" className="relative z-10 flex items-center gap-3">
               <img
-  src="/images/logo-oro-verde.jpg"
+  src="/images/logo.jpg"
   alt={siteConfig.name}
   className="w-12 h-12 md:w-14 md:h-14 rounded-full object-cover shadow-warm"
   width={56}
